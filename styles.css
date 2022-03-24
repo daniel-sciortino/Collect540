@@ -310,9 +310,8 @@ footer button {
   color: rgb(228, 227, 227);
 }
 footer button:hover {
-  background-color: rgba(25, 25, 73, 0.164);
-  border-color: #719ece;
-  box-shadow: 0 0 30px #719ece;
+  background-color: rgb(228, 227, 227);
+  color: rgb(25, 25, 73);
 }
 
 footer ul {
