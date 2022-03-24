@@ -280,6 +280,11 @@ body {
   margin-top: 20px;
 }
 
+#coming-soon button:hover {
+  background-color: rgb(228, 227, 227);
+  color: rgb(25, 25, 73);
+}
+
 footer {
   display: flex;
   width: 100%;
@@ -330,10 +335,12 @@ footer ul {
     width: 100%;
     max-width: none;
     max-height: none;
-    font-size: 0.8rem;
     background-color: rgba(49, 49, 49, 0.205);
     box-shadow: none;
   }
+  .home-container h2 {
+  }
+
   #main-logo {
     height: 80%;
     width: 70%;
@@ -347,6 +354,13 @@ footer ul {
     min-height: none;
     box-sizing: border-box;
     overflow: hidden;
+  }
+  .store {
+    height: 250px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
   .background-logos,
@@ -372,5 +386,12 @@ footer ul {
     max-height: none;
     height: 100%;
     padding-bottom: 20px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  footer button {
+    margin-top: 20px;
+    margin-bottom: 20px;
   }
 }
