@@ -15,7 +15,7 @@ body {
   left: 0;
   top: 0;
   width: 100%;
-  background-color: rgb(25, 25, 73);
+  background-color: #000;
 }
 .banner-logo {
   height: 3em;
@@ -52,8 +52,23 @@ body {
   height: 100%;
   border-right: solid rgb(58, 57, 57) 1px;
 }
-.nav-stores img:hover {
-  background-color: white;
+
+.amzn-img {
+  border-radius: 30px;
+  background-color: #fff;
+  border: solid transparent 2px;
+}
+
+.ebay-img {
+  border-radius: 30px;
+  border: solid transparent 2px;
+}
+
+.amzn-img:hover {
+  border: solid #ff9900 2px;
+}
+.ebay-img:hover {
+  border: solid #3333e9 2px;
 }
 
 .contact-link:hover {
@@ -308,7 +323,6 @@ body {
   margin: 10px;
   background-color: rgba(10, 10, 10, 0.671);
   outline: none;
-  
 }
 
 .form-control {
@@ -390,7 +404,6 @@ body {
   }
 
   @media screen and (max-width: 800px) {
-
     #contact-form {
       border: solid red;
       display: flex;
@@ -408,11 +421,11 @@ body {
   .info p {
     font-size: 1.2rem;
     border-bottom: solid 1px rgba(161, 161, 160, 0.733);
-      padding-bottom: 40px;
+    padding-bottom: 40px;
   }
 
   .form-textarea {
-  width: 87%;
+    width: 87%;
   }
 
   .form-group {
@@ -422,14 +435,13 @@ body {
     justify-content: center;
     align-items: center;
     box-sizing: border-box;
-
   }
   .form-name {
-  width: 100%;
-  margin-left: -10px;
+    width: 100%;
+    margin-left: -10px;
   }
   .form-email {
     width: 100%;
     margin-left: -10px;
-    }
+  }
 }
