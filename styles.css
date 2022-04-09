@@ -198,13 +198,15 @@ body {
 }
 
 .home-container h2 {
-  font-size: 3em;
+  font-size: 3.5em;
   color: #fff;
   transform: translateY (-50%);
   margin: 0;
   margin-top: 15px;
-  font-weight: 300;
-  font-family: "Oswald", sans-serif;
+  
+  font-family: 'Bebas Neue', cursive;
+font-family: 'Oswald', sans-serif;
+font-family: 'Yanone Kaffeesatz', sans-serif;
   text-shadow: 2px 2px #585858cc;
 }
 .home-container h3 {
@@ -339,11 +341,15 @@ footer ul {
 }
 
 @media screen and (max-width: 800px) {
-  .nav-links,
-  .nav-stores,
   .contact-link {
     display: none;
   }
+
+ #language {
+   right: 0;
+   position: absolute;
+   border-left:solid rgb(58, 57, 57) 1px;
+ }
 
   .home-container {
     height: 100%;
