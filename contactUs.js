@@ -1,4 +1,4 @@
-function someFunction() {
+function popUpForm() {
     document.getElementById("home-container").style.visibility = "hidden";
     document.getElementById("send-email-container").style.visibility = "visible";
 
