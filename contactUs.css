@@ -337,6 +337,10 @@ body {
   display: flex;
   justify-content: space-evenly;
 }
+.form-title {
+  color: white;
+  font-size: 3em;
+}
 
 .form-textarea {
   width: 65%;
