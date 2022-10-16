@@ -394,8 +394,27 @@ footer ul {
 
   .background-logos,
   .background-logos1 {
+    overflow: hidden;
+    max-width: 100vw;
+    border: solid yellow;
+  }
+
+  #dc, #marvel, #topps, #bluray, #hotwheels, #pikachu {
     display: none;
   }
+#xbox {
+ 
+    left: 75%;
+    animation: fall 100s linear infinite;
+    animation-delay: -170s;
+  
+}
+#mario {
+  left: 20%;
+    animation: fall 100s linear infinite;
+    animation-delay: -50s;
+}
+  
 
   .stores-container {
     height: 100%;
@@ -423,4 +442,6 @@ footer ul {
     margin-top: 20px;
     margin-bottom: 20px;
   }
+
+ 
 }

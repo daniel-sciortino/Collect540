@@ -193,6 +193,7 @@ body {
   z-index: 500;
   box-sizing: border-box;
   color: rgb(228, 227, 227);
+
 }
 
 .company-name {
@@ -338,6 +339,9 @@ body {
 #contact-form {
   display: flex;
   justify-content: space-evenly;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100vh;
 }
 .form-title {
   color: white;
@@ -364,14 +368,17 @@ body {
   justify-content: center;
   align-items: center;
   background-color: rgba(10, 10, 10, 0.671);
+
 }
 
 .email-send-btn {
+ 
   padding: 10px 44px;
   border: solid 1px;
   border-radius: 7px;
   background-color: rgb(179, 6, 6);
   color: rgb(228, 227, 227);
+  margin: 20px;
 }
 
 @media screen and (max-width: 800px) {
@@ -410,7 +417,6 @@ body {
 
   @media screen and (max-width: 800px) {
     #contact-form {
-      border: solid red;
       display: flex;
       flex-direction: column;
       justify-content: space-evenly;
