@@ -229,6 +229,7 @@ body {
   font-size: 1.5em;
   padding: 3px;
   font-weight: 300;
+  margin-left: 20px;
 }
 .home-container button {
   padding: 10px 20px;
@@ -286,9 +287,15 @@ body {
   align-items: center;
   border: solid rgba(0, 0, 0, 0.3) 1px;
 }
+#coming-soon {
+text-align: center;
+
+}
+
 #coming-soon input {
   width: 80%;
   height: 1.5rem;
+ 
 }
 
 #coming-soon button {
@@ -318,6 +325,7 @@ footer {
 footer h3 {
   font-size: 2.2rem;
   color: rgb(228, 227, 227);
+  text-align: center;
 }
 footer h4 {
   font-size: 1.7rem;
@@ -328,6 +336,7 @@ footer h4 {
 .footer-container {
   display: flex;
   flex-direction: row;
+
 }
 footer button {
   padding: 10px 30px;
