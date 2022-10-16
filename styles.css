@@ -361,10 +361,13 @@ footer ul {
     height: 100%;
     width: 100%;
     min-width: 100%;
-    max-width: 200px;
+    max-width: 100vw;
     max-height: none;
     background-color: rgba(49, 49, 49, 0.205);
     box-shadow: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   #main-logo {
