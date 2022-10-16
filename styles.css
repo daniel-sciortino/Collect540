@@ -395,8 +395,10 @@ footer ul {
   .background-logos,
   .background-logos1 {
     overflow: hidden;
-    max-width: 100vw;
-
+  }
+  .background-logos1 {
+    transform: rotateX(180deg);
+    margin-left: calc(100vw / 100);
   }
 
   #dc, #marvel, #topps, #bluray, #hotwheels, #pikachu {
