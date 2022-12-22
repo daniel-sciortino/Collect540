@@ -28,7 +28,7 @@ body {
   width: 180px;
   align-items: center;
   font-size: 1rem;
-  color: rgb(228, 227, 227);
+  color: rgba(255, 255, 255, 0.773);
   justify-content: space-evenly;
   text-decoration: none;
   font-family: 'Karla', sans-serif;
@@ -45,11 +45,11 @@ body {
   width: 200px;
   height: 3.3rem;
   font-size: 1.3rem;
-  color: rgb(228, 227, 227);
+  color: rgba(255, 255, 255, 0.773);
 }
 .nav-links a {
   text-decoration: none;
-  color: rgb(228, 227, 227);
+  color: rgba(255, 255, 255, 0.773);
 }
 .language-container {
   display: flex;
@@ -201,13 +201,12 @@ body {
   color: rgb(22, 21, 21);
   z-index: 500;
   box-sizing: border-box;
-  color: rgb(228, 227, 227);
   
 }
 
 .home-container h2 {
   font-size: 3.5em;
-  color: #fff;
+  color: rgba(255, 255, 255, 0.773);
   transform: translateY (-50%);
   margin: 0;
   margin-top: 15px;
@@ -220,13 +219,13 @@ body {
   font-size: 1.5em;
   text-align: center;
   font-weight: 400;
-  color: rgb(197, 10, 10);
+  color: rgba(7, 204, 53, 0.865);
   font-family: "Oswald", sans-serif;
 }
 
 .home-container ul {
   text-align: left;
-  color: rgb(240, 240, 240);
+  color: rgba(255, 255, 255, 0.773);
   font-size: 1.5em;
   padding: 3px;
   font-weight: 300;
@@ -237,7 +236,7 @@ body {
   border: solid 1px;
   border-radius: 7px;
   background-color: rgb(179, 6, 6);
-  color: rgb(228, 227, 227);
+  color: rgba(255, 255, 255, 0.773);
   scroll-behavior: smooth;
 }
 .home-container button:hover {
@@ -253,7 +252,7 @@ body {
   justify-content: center;
 }
 .home-logo img {
-  background-color: rgba(0, 0, 0, 0.5);
+  /* background-color: rgba(0, 0, 0, 0.5); */
   border: transparent;
   border-radius: 10px;
   padding: 10px;
@@ -304,7 +303,7 @@ text-align: center;
   border: solid 1px;
   border-radius: 7px;
   background-color: rgb(179, 6, 6);
-  color: rgb(228, 227, 227);
+  color: rgba(255, 255, 255, 0.773);
   margin-top: 20px;
 }
 
@@ -325,13 +324,13 @@ footer {
 
 footer h3 {
   font-size: 2.2rem;
-  color: rgb(228, 227, 227);
+  color:  rgba(255, 255, 255, 0.773);
   text-align: center;
 }
 footer h4 {
   font-size: 1.7rem;
 
-  color: rgb(228, 227, 227);
+  color:  rgba(255, 255, 255, 0.773);
 }
 
 .footer-container {
@@ -344,7 +343,7 @@ footer button {
   border: solid 1px;
   border-radius: 7px;
   background-color: rgb(179, 6, 6);
-  color: rgb(228, 227, 227);
+  color:  rgba(255, 255, 255, 0.773);
 }
 footer button:hover {
   background-color: rgb(228, 227, 227);
@@ -352,7 +351,7 @@ footer button:hover {
 }
 
 footer ul {
-  color: rgb(189, 186, 186);
+  color: rgba(255, 255, 255, 0.773);
   font-size: 1.2rem;
 }
 
@@ -405,15 +404,15 @@ footer ul {
 
   .background-logos,
   .background-logos1 {
-    overflow: hidden;
+    display: none;
    
   }
-  .background-logos1 {
+  /* .background-logos1 {
     transform: rotateX(180deg);
     margin-left: calc(100vw / 100);
-  }
+  } */
 
-  #dc, #marvel, #topps, #bluray, #hotwheels, #pikachu {
+  /* #dc, #marvel, #topps, #bluray, #hotwheels, #pikachu {
     display: none;
   }
 #xbox {
@@ -446,7 +445,7 @@ footer ul {
   left: 70%;
     animation: fall 100s linear infinite;
     animation-delay: -10s;
-}
+} */
 
   .stores-container {
     height: 100%;

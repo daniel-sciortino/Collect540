@@ -24,7 +24,7 @@ body {
   width: 180px;
   align-items: center;
   font-size: 1rem;
-  color: rgb(228, 227, 227);
+  color:  rgba(255, 255, 255, 0.773);
   justify-content: space-evenly;
   text-decoration: none;
   font-family: 'Karla', sans-serif;
@@ -203,7 +203,7 @@ body {
   font-size: 5em;
   padding-bottom: 70px;
   transform: translate;
-  color: rgb(255, 255, 255);
+  color:  rgba(255, 255, 255, 0.773);
   transform: translateY (-50%);
   margin: 0;
   font-weight: 400;
@@ -219,7 +219,7 @@ body {
   text-align: center;
   font-weight: 200;
   font-weight: bolder;
-  color: #fff;
+  color:  rgba(255, 255, 255, 0.773);
 }
 
 .home-container p {
@@ -248,7 +248,7 @@ body {
 }
 
 .social-media-list li a {
-  color: #fff;
+  color:  rgba(255, 255, 255, 0.773);
 }
 
 .social-media-list li {
@@ -259,7 +259,7 @@ body {
   margin: 10px 3px;
   line-height: 60px;
   border-radius: 50%;
-  color: #fff;
+  color:  rgba(255, 255, 255, 0.773);
   background-color: rgba(10, 10, 10, 0.973);
   cursor: pointer;
   transition: all 0.2s ease-in-out;
@@ -339,7 +339,7 @@ border-radius: 50%;
   height: 1.8rem;
   border-radius: 5px;
   background-color: rgba(10, 10, 10, 0.671);
-  color: #fff;
+  color:  rgba(255, 255, 255, 0.773);
   font-size: 1.2rem;
 }
 
@@ -351,7 +351,7 @@ border-radius: 50%;
   height: 100vh;
 }
 .form-title {
-  color: white;
+  color:  rgba(255, 255, 255, 0.773);
   font-size: 3em;
 }
 
@@ -360,7 +360,7 @@ border-radius: 50%;
   text-decoration: none;
   border-radius: 5px;
   background-color: rgba(10, 10, 10, 0.671);
-  color: #fff;
+  color:  rgba(255, 255, 255, 0.773);
   font-size: 1.2rem;
   border-color: rgba(189, 188, 188, 0.61);
   box-shadow: 0 0 10px #fdfdfda1, inset 0 0 2px #d1d0d0be;
@@ -384,7 +384,7 @@ border-radius: 50%;
   border: solid 1px;
   border-radius: 7px;
   background-color: rgb(179, 6, 6);
-  color: rgb(228, 227, 227);
+  color:  rgba(255, 255, 255, 0.773);
   margin: 20px;
 }
 
